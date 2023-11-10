@@ -4,6 +4,9 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## Run Kafka instance
+Run `docker compose up` from the root directory to start a Kafka instance for the weather service to send messages to.
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:

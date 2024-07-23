@@ -75,7 +75,7 @@
 #   accessed directly. (example: "foo.example.com,bar.example.com")
 #
 ###
-FROM image-registry.openshift-image-registry.svc:5000/openshift/ubi8-openjdk-11:1.11
+FROM registry.access.redhat.com/ubi8@sha256:44d75007b39e0e1bbf1bcfd0721245add54c54c3f83903f8926fb4bef6827aa2
 
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en'
 
